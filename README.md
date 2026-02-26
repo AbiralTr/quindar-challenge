@@ -12,8 +12,6 @@ The solver expects a CSV with the following header/columns:
 - `fuel_cost_kg` (float)
 - `revenue_usd` (int)
 
-The challenge instructions referenced two attachments (PDF + input CSV). I received the PDF, but the input CSV was not included in the email. Initially, I was nervous that I was not going to be able to complete the challenge, however, I decided not to let that stop me. Instead, I additionally wrote a python script that randomly generates N number of satellites which I used as my own test data, I have also included the 3 randomly generated csv files I used in order to work on this.
-
 Implemented Methods:
 
 1) Greedy
@@ -51,3 +49,4 @@ Notes:
 synthetic.csv: Seed 42: Greedy matched DP
 synthetic2.csv: Seed 70: Greedy matched DP
 synthetic3.csv: Seed 112: DP outperformed Greedy by $2000
+
